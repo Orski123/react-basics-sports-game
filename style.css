@@ -47,6 +47,7 @@ body {
 
 .Game {
   text-align: center;
+  padding: 1rem 0;
 }
 
 .Team {
@@ -58,7 +59,7 @@ body {
 }
 
 .Team .identity {
-  height: 15rem;
+  height: 17rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +85,7 @@ body {
 .versus h1 {
   font-family: againtsregular, oswald, sans-serif;
   font-size: 500%;
-  color: #fc0;
+  color: rgb(119, 6, 153);
   text-shadow: 2px 2px 0 black;
 }
 
@@ -93,7 +94,7 @@ button {
   margin-top: 1rem;
   width: 100%;
   padding: 0.5rem;
-  background-color: #fc0;
+  background-color: plum;
   border: 0;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
